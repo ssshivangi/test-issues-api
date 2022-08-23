@@ -1,0 +1,64 @@
+{
+  "id": "#number",
+  "iid": "#number",
+  "project_id": 38809690,
+  "title": "#string",
+  "description": null,
+  "state": "opened",
+  "created_at": "#notnull",
+  "updated_at": "#notnull",
+  "closed_at": null,
+  "closed_by": null,
+  "labels": [
+    "#string"
+  ],
+  "milestone": null,
+  "assignees": [],
+  "author": {
+    "id": "#number",
+    "username": "#string",
+    "name": "#string",
+    "state": "active",
+    "avatar_url": "#string",
+    "web_url": "#string"
+  },
+  "type": "ISSUE",
+  "assignee": null,
+  "user_notes_count": "#number",
+  "merge_requests_count": "#number",
+  "upvotes": "#number",
+  "downvotes": "#number",
+  "due_date": null,
+  "confidential": false,
+  "discussion_locked": null,
+  "issue_type": "issue",
+  "web_url": "#string",
+  "time_stats": {
+    "time_estimate": "#number",
+    "total_time_spent": "#number",
+    "human_time_estimate": null,
+    "human_total_time_spent": null
+  },
+  "task_completion_status": {
+    "count": "#number",
+    "completed_count": "#number"
+  },
+  "blocking_issues_count": "#number",
+  "has_tasks": false,
+  "_links": {
+    "self": "#string",
+    "notes": "#string",
+    "award_emoji": "#string",
+    "project": "#string",
+    "closed_as_duplicate_of": null
+  },
+  "references": {
+    "short": "#string",
+    "relative": "#string",
+    "full": "#string"
+  },
+  "severity": "UNKNOWN",
+  "subscribed": true,
+  "moved_to_id": null,
+  "service_desk_reply_to": null
+}
