@@ -23,7 +23,7 @@ mvn clean test -Dtest=KarateJunit
 For example, to run validateUsers feature file with tag "users"
 
 ```
-mvn clean test -Dtest=KarateJunit -Dcucumber.options="--tags @toprated" -DargLine='-Dkarate.env=Test'
+mvn clean test -Dtest=KarateJunit -Dcucumber.options="--tags @newIssue" -DargLine='-Dkarate.env=Test'
 ```
 
 ### performance testing command

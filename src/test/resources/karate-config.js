@@ -7,18 +7,18 @@ function fn () {
 	//To run APIs in different environment, Base path can be added depending on environment
 	if(env == 'Test'){
 		config={
-				url:'http://api.themoviedb.org/3/',
+				url:'https://gitlab.com/api/v4/projects/',
 				env:'Test'
 	    }
 	} else if(env == 'Acceptance'){
 		config={
 				env:'Acceptance',
-				url:'http://api.themoviedb.org/3/'
+				url:'https://gitlab.com/api/v4/projects/'
 	    }
 	} else {
 		config={
 				env:'Dev',
-				url:'http://api.themoviedb.org/3/'
+				url:'https://gitlab.com/api/v4/projects/'
 	    }
 	}
 	
