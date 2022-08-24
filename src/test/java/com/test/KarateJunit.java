@@ -33,7 +33,7 @@ public class KarateJunit {
         List<String> jsonPaths = new ArrayList<String>(jsonFiles.size());
         jsonFiles.removeIf(file->file.length()==0);
         jsonFiles.forEach(file -> jsonPaths.add(file.getAbsolutePath()));
-        Configuration config = new Configuration(new File("target"), "User Blog Report");
+        Configuration config = new Configuration(new File("target"), "Github Issue API report");
         ReportBuilder reportBuilder = new ReportBuilder(jsonPaths, config);
         reportBuilder.generateReports();        
     }

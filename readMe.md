@@ -4,6 +4,13 @@
 
 [Karate-Gatling](https://github.com/intuit/karate/tree/master/karate-gatling) is an open-source API performance testing tool
 
+- Added test cases to validate CRUD of new issue.
+- Added test cases to verify time estimate functionality of new issue.
+- Added tests for promote issue functionality.
+- Added scala file for load testing of new issue endpoints. 
+- There is option to run tests via Docker.
+- Added github CI pipeline.
+
 ## Project Setup
 - Install [Java 8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
@@ -29,14 +36,18 @@ mvn clean test -Dtest=KarateJunit -Dcucumber.options="--tags @newIssue" -DargLin
 ### performance testing command
 
 ```
-mvn clean test-compile gatling:test -Dgatling.simulationClass=performance.LoadTestingSimulation -Dkarate.env=ET
+mvn clean test-compile gatling:test -Dgatling.simulationClass=performance.LoadTestingSimulation -Dkarate.env=Test
 ```
 
-### performance testing report
+### performance test report
 
 folder target -> gatling -> index.html
 
-![TestReport](.\screenshot\Test_Report.jpg)
+### karate test report
+
+folder target -> cucumber-html-reports -> overview-features.html
+
+![TestReport](./screenshot/Test_Report.png)
 
 
 ### Build docker image

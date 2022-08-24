@@ -1,0 +1,24 @@
+{
+  "id": "#number",
+  "type": null,
+  "body": "Lets promote this to an epic",
+  "attachment": null,
+  "author": {
+    "id": "#number",
+    "username": "#string",
+    "name": "#string",
+    "state": "active",
+    "avatar_url": "#string",
+    "web_url": "#string"
+  },
+  "created_at": "#notnull",
+  "updated_at": "#notnull",
+  "system": false,
+  "noteable_id": "#number",
+  "noteable_type": "Issue",
+  "resolvable": false,
+  "confidential": false,
+  "internal": false,
+  "noteable_iid": "#number",
+  "commands_changes": {}
+}
